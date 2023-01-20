@@ -1,3 +1,3 @@
 # startup
 Web Programming Repository
-built for CS260
+for CS260

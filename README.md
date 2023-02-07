@@ -27,3 +27,5 @@ Simple todo list
 
 My Notes -
 Simple notes page
+
+[Note Feb 6, 2023.pdf](https://github.com/GabrielHollberg/startup/files/10671930/Note.Feb.6.2023.pdf)

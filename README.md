@@ -30,3 +30,6 @@ Simple notes page
 
 Rough Sketch of Website -
 [Note Feb 6, 2023.pdf](https://github.com/GabrielHollberg/startup/files/10671930/Note.Feb.6.2023.pdf)
+
+Simon html -
+While working on the simon html project I learned a few cool things. One is that when you use an a tag you should use it on the inside of formatting tags. I did it on the outside at first and it made an entire line on my website a hyperlink. I also learned more about the form tag. It will be interesting to learn more about css after using some of html's outdated formatting tools.

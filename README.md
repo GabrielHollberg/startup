@@ -41,3 +41,6 @@ Responsive Design -
 Always include this meta tag in the html head tag
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 This will prevent automatic browser scaling on devices
+
+Simon css -
+While working on the simon css project I learned how to use the bootstrap framework. This framework is included in a link tag and uses classes to style a webpage. I also learned a little about w3.css and think I like it even better than bootstrap.

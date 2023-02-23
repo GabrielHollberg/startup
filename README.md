@@ -36,3 +36,8 @@ While working on the simon html project I learned a few cool things. One is that
 
 CSS -
 Animation in CSS is actually super cool. Remember use @keyframes to define states at different percentages of the animation. then use animation in css with whatever you used for your keyframes name and an amount of time like 2s
+
+Responsive Design -
+Always include this meta tag in the html head tag
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+This will prevent automatic browser scaling on devices

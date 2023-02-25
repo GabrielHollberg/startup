@@ -90,6 +90,11 @@ a {
     border-right: none;
 }
 
+#quote {
+    font-family: "Brush Script MT", cursive;
+    font-size: 2em;
+}
+
 a:hover {
     background-color: var(--primary);
     color: var(--secondary);

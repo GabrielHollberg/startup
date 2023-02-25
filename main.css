@@ -29,11 +29,16 @@ nav {
     justify-content: space-around;
     height: 100%;
     width: 100%;
+    border: blue 2px
+}
+
+#footer-nav {
+    width: 20vw;
 }
 
 main {
     position: fixed;
-    height: 92vh;
+    height: 84vh;
     top: 8vh;
     width: 100%;
     display: flex;
@@ -42,8 +47,31 @@ main {
     justify-content: center;
 }
 
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0vh;
+    height: 8vh;
+    width: 90vw;
+}
+
 p {
+    text-align: center;
     cursor: none;
+}
+
+#author {
+    font-size: .7em;
+    animation: none;
+    border-right: none;
+}
+
+#author:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    animation: none;
 }
 
 a {
@@ -101,7 +129,7 @@ a:hover {
 
     main {
         top: 53vh;
-        height: 47vh;
+        height: 42vh;
     }
 
     a {
@@ -112,5 +140,13 @@ a:hover {
 
     #notes {
         border-bottom: none;
+    }
+
+    #footer-nav {
+        width: 30vw;
+    }
+
+    #author:hover {
+        cursor: pointer;
     }
 }

@@ -9,11 +9,27 @@
     <body>
 
         <header>
+            <nav class="bar">
+                <a class="myButton" href="profile.html">Profile</a>
+                <a class="myButton" href="goals.html">Goals</a>
+                <a class="myButton" href="schedule.html">Schedule</a>
+                <a class="myButton" href="todo.html">Todo</a>
+                <a class="myButton" id="notes" href="notes.html">Notes</a>
+            </nav>
         </header>
 
         <main>
-            <p><i>This page needs to be built<br/>-Not Enos</i></p>
+            <div class="bar">
+                <form action="createQuote()">
+                <input type="text" name="quoteInput" placeholder="favorite quote">
+                <input type="submit" value="save"></input>
+                </form>
+            </div>
+            <img id="profilePic" src="BYUID2.jpg"></img>
         </main>
+
+        <script src="newQuote.js"></script>
+
     </body>
 
 </html>

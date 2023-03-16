@@ -24,6 +24,7 @@ header {
 }
 
 .bar {
+    height: 5vh;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -82,15 +83,20 @@ p {
     animation: none;
 }
 
+button
+{
+    border: none;
+}
+
 .myButton {
     text-decoration: none;
     flex: 1;
-    color: var(--primary);
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--secondary);
-    border-right: var(--primary) 1px solid;
+    border-right: black 1px solid;
     animation: buttontransition2 1s;
 }
 
@@ -108,7 +114,7 @@ p {
     width: 25vh;
     height: 25vh;
     border-radius: 50%;
-    border: black 2px solid;
+    border: var(--primary) 2px solid;
     margin: 5vw;
 }
 
@@ -122,10 +128,294 @@ p {
     justify-content: center;
 }
 
-a:hover {
+.myButton:hover
+{
     background-color: var(--primary);
     color: var(--secondary);
     animation: buttontransition1 1s;
+}
+
+#black
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: blackbuttontransition2 1s;
+}
+
+#black:hover
+{
+    background-color: black;
+    color: var(--secondary);
+    animation: blackbuttontransition1 1s;
+}
+
+@keyframes blackbuttontransition2 {
+    0% {
+        background-color: black;
+        color: var(--secondary);
+    }
+    100% {
+        background-color: var(--secondary);
+        color: black;
+    }
+}
+
+@keyframes blackbuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+        color: black;
+    }
+    100% {
+        background-color: black;
+        color: var(--secondary);
+    }
+}
+
+#blue
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: bluebuttontransition2 1s;
+}
+
+#blue:hover
+{
+    background-color:darkslateblue;
+    color: var(--secondary);
+    animation: bluebuttontransition1 1s;
+}
+
+@keyframes bluebuttontransition2 {
+    0% {
+        background-color: darkslateblue;
+        color: var(--secondary);
+    }
+    100% {
+        background-color: var(--secondary);
+        color: black;
+    }
+}
+
+@keyframes bluebuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+        color: black;
+    }
+    100% {
+        background-color: darkslateblue;
+        color: var(--secondary);
+    }
+}
+
+#red
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: redbuttontransition2 1s;
+}
+
+#red:hover
+{
+    background-color: firebrick;
+    color: var(--secondary);
+    animation: redbuttontransition1 1s;
+}
+
+@keyframes redbuttontransition2 {
+    0% {
+        background-color: firebrick;
+        color: var(--secondary);
+    }
+    100% {
+        background-color: var(--secondary);
+        color: black;
+    }
+}
+
+@keyframes redbuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+        color: black;
+    }
+    100% {
+        background-color: firebrick;
+        color: var(--secondary);
+    }
+}
+
+#yellow
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: yellowbuttontransition2 1s;
+}
+
+#yellow:hover
+{
+    background-color:goldenrod;
+    color: var(--secondary);
+    animation: yellowbuttontransition1 1s;
+}
+
+@keyframes yellowbuttontransition2 {
+    0% {
+        background-color: goldenrod;
+        color: var(--secondary);
+    }
+    100% {
+        background-color: var(--secondary);
+        color: black;
+    }
+}
+
+@keyframes yellowbuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+        color: black;
+    }
+    100% {
+        background-color: goldenrod;
+        color: var(--secondary);
+    }
+}
+
+#green
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: greenbuttontransition2 1s;
+}
+
+#green:hover
+{
+    background-color: darkgreen;
+    color: var(--secondary);
+    animation: greenbuttontransition1 1s;
+}
+
+@keyframes greenbuttontransition2 {
+    0% {
+        background-color: darkgreen;
+        color: var(--secondary);
+    }
+    100% {
+        background-color: var(--secondary);
+        color: black;
+    }
+}
+
+@keyframes greenbuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+        color: black;
+    }
+    100% {
+        background-color: darkgreen;
+        color: var(--secondary);
+    }
+}
+
+#orange
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: orangebuttontransition2 1s;
+}
+
+#orange:hover
+{
+    background-color: darksalmon;
+    color: var(--secondary);
+    animation: orangebuttontransition1 1s;
+}
+
+@keyframes orangebuttontransition2 {
+    0% {
+        background-color: darksalmon;
+        color: var(--secondary);
+    }
+    100% {
+        background-color: var(--secondary);
+        color: black;
+    }
+}
+
+@keyframes orangebuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+        color: black;
+    }
+    100% {
+        background-color: darksalmon;
+        color: var(--secondary);
+    }
+}
+
+#purple
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: purplebuttontransition2 1s;
+}
+
+#purple:hover
+{
+    background-color: rebeccapurple;
+    color: var(--secondary);
+    animation: purplebuttontransition1 1s;
+}
+
+@keyframes purplebuttontransition2 {
+    0% {
+        background-color: rebeccapurple;
+        color: var(--secondary);
+    }
+    100% {
+        background-color: var(--secondary);
+        color: black;
+    }
+}
+
+@keyframes purplebuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+        color: black;
+    }
+    100% {
+        background-color: rebeccapurple;
+        color: var(--secondary);
+    }
+}
+
+#white
+{
+    background-color: var(--secondary);
+    color: black;
+    animation: whitebuttontransition2 1s;
+}
+
+#white:hover
+{
+    background-color: white;
+    animation: whitebuttontransition1 1s;
+}
+
+@keyframes whitebuttontransition2 {
+    0% {
+        background-color:white;
+    }
+    100% {
+        background-color: var(--secondary);
+    }
+}
+
+@keyframes whitebuttontransition1 {
+    0% {
+        background-color: var(--secondary);
+    }
+    100% {
+        background-color: white;
+    }
 }
 
 @keyframes buttontransition2 {
@@ -135,14 +425,14 @@ a:hover {
     }
     100% {
         background-color: var(--secondary);
-        color: var(--primary);
+        color: black;
     }
 }
 
 @keyframes buttontransition1 {
     0% {
         background-color: var(--secondary);
-        color: var(--primary);
+        color: black;
     }
     100% {
         background-color:var(--primary);

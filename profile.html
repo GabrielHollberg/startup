@@ -10,6 +10,7 @@
 
         <header>
             <nav class="bar">
+                <a class="myButton" href="index.html">Home</a>
                 <a class="myButton" href="profile.html">Profile</a>
                 <a class="myButton" href="goals.html">Goals</a>
                 <a class="myButton" href="schedule.html">Schedule</a>
@@ -20,15 +21,28 @@
 
         <main>
             <div class="bar">
-                <form action="createQuote()">
-                <input type="text" name="quoteInput" placeholder="favorite quote">
-                <input type="submit" value="save"></input>
-                </form>
+                <button type="button" id="black" class="myButton" onclick="colorBlack()">Black</button>
+                <button type="button" id="blue" class="myButton" onclick="colorBlue()">Blue</button>
+                <button type="button" id="red" class="myButton" onclick="colorRed()">Red</button>
+                <button type="button" id="yellow" class="myButton" onclick="colorYellow()">Yellow</button>
+            </div>
+            <div class="bar"></div>
+            <div class="bar">
+                <button type="button" id="green" class="myButton" onclick="colorGreen()">Green</button>
+                <button type="button" id="orange" class="myButton" onclick="colorOrange()">Orange</button>
+                <button type="button" id="purple" class="myButton" onclick="colorPurple()">Purple</button>
+                <button type="button" id="white" class="myButton" onclick="colorWhite()">White</button>
             </div>
             <img id="profilePic" src="BYUID2.jpg"></img>
+            <div class="bar">
+                <form>
+                <input type="text" id="quoteInput" onkeydown="createQuote(event)" placeholder="favorite quote">
+                </form>
+            </div>
         </main>
 
         <script src="newQuote.js"></script>
+        <script src="color.js"></script>
 
     </body>
 

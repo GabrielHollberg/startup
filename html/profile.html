@@ -3,13 +3,19 @@
 
     <head>
         <title>Life Perfected</title>
+
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/class.css">
+        <link rel="stylesheet" href="/css/id.css">
+        <link rel="stylesheet" href="/css/profile.css">
+        
+        <script src="/js/colorUpdate.js"></script>
     </head>
 
     <body>
 
         <header>
-            <nav class="bar">
+            <nav>
                 <a href="/index.html">Home</a>
                 <a href="/html/profile.html">Profile</a>
                 <a href="/html/goals.html">Goals</a>
@@ -21,17 +27,17 @@
 
         <main>
             <div class="bar">
-                <button type="button" id="black" class="myButton" onclick="colorBlack()">Black</button>
-                <button type="button" id="blue" class="myButton" onclick="colorBlue()">Blue</button>
-                <button type="button" id="red" class="myButton" onclick="colorRed()">Red</button>
-                <button type="button" id="yellow" class="myButton" onclick="colorYellow()">Yellow</button>
+                <button type="button" id="black" onclick="createColor('black')">Black</button>
+                <button type="button" id="blue" onclick="createColor('darkslateblue')">Blue</button>
+                <button type="button" id="red" onclick="createColor('firebrick')">Red</button>
+                <button type="button" id="yellow" onclick="createColor('goldenrod')">Yellow</button>
             </div>
             <div class="bar"></div>
             <div class="bar">
-                <button type="button" id="green" class="myButton" onclick="colorGreen()">Green</button>
-                <button type="button" id="orange" class="myButton" onclick="colorOrange()">Orange</button>
-                <button type="button" id="purple" class="myButton" onclick="colorPurple()">Purple</button>
-                <button type="button" id="white" class="myButton" onclick="colorWhite()">White</button>
+                <button type="button" id="green" onclick="createColor('darkgreen')">Green</button>
+                <button type="button" id="orange" onclick="createColor('darksalmon')">Orange</button>
+                <button type="button" id="purple" onclick="createColor('rebeccapurple')">Purple</button>
+                <button type="button" id="white" onclick="createColor('white')">White</button>
             </div>
             <img id="profilePic" src="/images/BYUID2.jpg"></img>
             <div class="bar">
@@ -42,7 +48,7 @@
         </main>
 
         <script src="/js/newQuote.js"></script>
-        <script src="/js/color.js"></script>
+        <script src="/js/newColor.js"></script>
 
     </body>
 

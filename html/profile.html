@@ -3,19 +3,19 @@
 
     <head>
         <title>Life Perfected</title>
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="/css/main.css">
     </head>
 
     <body>
 
         <header>
             <nav class="bar">
-                <a class="myButton" href="index.html">Home</a>
-                <a class="myButton" href="profile.html">Profile</a>
-                <a class="myButton" href="goals.html">Goals</a>
-                <a class="myButton" href="schedule.html">Schedule</a>
-                <a class="myButton" href="todo.html">Todo</a>
-                <a class="myButton" id="notes" href="notes.html">Notes</a>
+                <a href="/index.html">Home</a>
+                <a href="/html/profile.html">Profile</a>
+                <a href="/html/goals.html">Goals</a>
+                <a href="/html/schedule.html">Schedule</a>
+                <a href="/html/todo.html">Todo</a>
+                <a href="/html/notes.html">Notes</a>
             </nav>
         </header>
 
@@ -33,16 +33,16 @@
                 <button type="button" id="purple" class="myButton" onclick="colorPurple()">Purple</button>
                 <button type="button" id="white" class="myButton" onclick="colorWhite()">White</button>
             </div>
-            <img id="profilePic" src="BYUID2.jpg"></img>
+            <img id="profilePic" src="/images/BYUID2.jpg"></img>
             <div class="bar">
                 <form>
-                <input type="text" id="quoteInput" onkeydown="createQuote(event)" placeholder="favorite quote">
+                <input type="text" id="quoteInput" onkeydown="createQuote(event)" placeholder="type favorite quote, then hit enter" autocomplete="off" autofocus>
                 </form>
             </div>
         </main>
 
-        <script src="newQuote.js"></script>
-        <script src="color.js"></script>
+        <script src="/js/newQuote.js"></script>
+        <script src="/js/color.js"></script>
 
     </body>
 

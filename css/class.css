@@ -1,6 +1,6 @@
 .bar {
     height: 5vh;
+    width: 85vw;
     display: flex;
     justify-content: space-around;
-    width: 100%;
 }

@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>Life Perfected</title>
+        <title>Profile</title>
 
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/class.css">
@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="/css/profile.css">
         
         <script src="/js/colorUpdate.js"></script>
+        <script src="/js/notBuilt.js"></script>
     </head>
 
     <body>
@@ -39,13 +40,15 @@
                 <button type="button" id="purple" onclick="createColor('rebeccapurple')">Purple</button>
                 <button type="button" id="white" onclick="createColor('white')">White</button>
             </div>
-            <img id="profilePic" src="/images/BYUID2.jpg"></img>
+            <img id="profilePic" src="/images/profilePic.png" onclick="alertNotBuilt()"></img>
             <div class="bar">
                 <form>
                 <input type="text" id="quoteInput" onkeydown="createQuote(event)" placeholder="type favorite quote, then hit enter" autocomplete="off" autofocus>
                 </form>
             </div>
         </main>
+
+        <footer></footer>
 
         <script src="/js/newQuote.js"></script>
         <script src="/js/newColor.js"></script>

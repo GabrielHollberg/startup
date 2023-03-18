@@ -30,6 +30,11 @@
     margin: 5vw;
 }
 
+#profilePic:hover
+{
+    opacity: .5;
+}
+
 #quote
 {
     font-family: "Brush Script MT", cursive;

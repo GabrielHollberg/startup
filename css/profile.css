@@ -328,3 +328,22 @@
     background-color: white;
     animation: whitebuttontransition1 .1s;
 }
+
+@media (max-width: 1000px)
+{
+    nav
+    {
+        height: 70%;
+    }
+
+    main
+    {
+        height: 79vh;
+    }
+
+    a
+    {
+        width: 100%;
+        cursor: none;
+    }
+}

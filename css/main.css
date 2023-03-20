@@ -125,32 +125,3 @@ footer
         color: black;
     }
 }
-
-@media (max-width: 1000px)
-{
-    header
-    {
-        height: 50vh;
-    }
-    
-    nav
-    {
-        flex-direction: column;
-    }
-
-    main
-    {
-        top: 52.5vh;
-        height: 38.5vh;
-    }
-
-    a
-    {
-        cursor: none;
-    }
-
-    #author:hover
-    {
-        cursor: pointer;
-    }
-}

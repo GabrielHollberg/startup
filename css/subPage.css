@@ -1,0 +1,18 @@
+@media (max-width: 1000px)
+{
+    nav
+    {
+        height: 70%;
+    }
+
+    main
+    {
+        height: 79vh;
+    }
+
+    a
+    {
+        width: 100%;
+        cursor: none;
+    }
+}

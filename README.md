@@ -44,3 +44,6 @@ This will prevent automatic browser scaling on devices
 
 Simon css -
 While working on the simon css project I learned how to use the bootstrap framework. This framework is included in a link tag and uses classes to style a webpage. I also learned a little about w3.css and think I like it even better than bootstrap.
+
+Simon JS -
+While looking over the Simon Javascript project I learned a lot. One of the things I learned was that you can use localStorage to save a string entered by a user. I will be using this on my Startup project. I also learned about using Javascript functions in my html with events like onclick.

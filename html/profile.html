@@ -21,25 +21,25 @@
                 <a href="/index.html">Home</a>
                 <a class="lesserButton" href="/html/profile.html">Profile</a>
                 <a class="lesserButton" href="/html/goals/goals.html">Goals</a>
-                <a class="lesserButton" href="/html/schedule.html">Schedule</a>
+                <!--<a class="lesserButton" href="/html/schedule.html">Schedule</a>
                 <a class="lesserButton" href="/html/todo.html">Todo</a>
-                <a class="lesserButton" href="/html/notes.html">Notes</a>
+                <a class="lesserButton" href="/html/notes.html">Notes</a>-->
             </nav>
         </header>
 
         <main>
             <div class="bar">
-                <button type="button" id="black" onclick="createColor('black')">Black</button>
-                <button type="button" id="blue" onclick="createColor('darkslateblue')">Blue</button>
-                <button type="button" id="red" onclick="createColor('firebrick')">Red</button>
-                <button type="button" id="yellow" onclick="createColor('goldenrod')">Yellow</button>
+                <button type="button" id="black" onclick="createColor('black', 'lightgray')">Black</button>
+                <button type="button" id="blue" onclick="createColor('darkslateblue', 'lightgray')">Blue</button>
+                <button type="button" id="red" onclick="createColor('firebrick', 'lightgray')">Red</button>
+                <button type="button" id="yellow" onclick="createColor('goldenrod', 'lightgray')">Yellow</button>
             </div>
             <div class="bar"></div>
             <div class="bar">
-                <button type="button" id="green" onclick="createColor('darkgreen')">Green</button>
-                <button type="button" id="orange" onclick="createColor('darksalmon')">Orange</button>
-                <button type="button" id="purple" onclick="createColor('rebeccapurple')">Purple</button>
-                <button type="button" id="white" onclick="createColor('white')">White</button>
+                <button type="button" id="green" onclick="createColor('darkgreen', 'lightgray')">Green</button>
+                <button type="button" id="orange" onclick="createColor('darksalmon', 'lightgray')">Orange</button>
+                <button type="button" id="purple" onclick="createColor('rebeccapurple', 'lightgray')">Purple</button>
+                <button type="button" id="white" onclick="createColor('white', black)">White</button>
             </div>
             <img id="profilePic" src="/images/profilePic.png" onclick="alertNotBuilt()"></img>
             <div class="bar">

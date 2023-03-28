@@ -1,7 +1,8 @@
 :root
 {
-    --primary: black;
-    --secondary: beige;
+    --secondary: rgba(30, 64, 55);
+    --tertiary: lightgray;
+    --fourth: lightgray;
 }
 
 body
@@ -29,16 +30,16 @@ nav
     width: 85vw;
     height: 35%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 a
 {
+    color: var(--tertiary);
     width: 15%;
     height: 100%;
     cursor: default;
     text-decoration: none;
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +50,7 @@ a
 a:hover
 {
     background-color: var(--primary);
-    color: var(--secondary);
+    color: var(--fourth);
     animation: buttontransition1 .1s;
 }
 
@@ -69,7 +70,19 @@ button
     height: 5vh;
     width: 18vw;
     font-size: 1em;
+    border-color: lightgray;
     border-radius: 100px;
+}
+
+div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+iframe
+{
+    width: 18vw;
 }
 
 input
@@ -104,12 +117,12 @@ footer
     0%
     {
         background-color: var(--secondary);
-        color: black;
+        color: var(--tertiary);
     }
     100%
     {
         background-color:var(--primary);
-        color: var(--secondary);
+        color: var(--fourth);
     }
 }
 
@@ -118,11 +131,11 @@ footer
     0%
     {
         background-color:var(--primary);
-        color: var(--secondary);
+        color: var(--fourth);
     }
     100%
     {
         background-color: var(--secondary);
-        color: black;
+        color: var(--tertiary);
     }
 }

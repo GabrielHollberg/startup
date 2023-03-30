@@ -1,8 +1,14 @@
-.bar {
+.bar
+{
     height: 5vh;
     width: 85vw;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.myCheck
+{
+    height: 1vh;
 }
 
 @media (max-width: 1000px)

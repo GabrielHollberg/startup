@@ -26,16 +26,28 @@
         </header>
 
         <main>
+
+            <input id="goalInput"></input>
+
+            <div class="bar"></div>
             <div class="bar">
-                <div>
-            <button onclick="createMonthly()">Monthly Goals</button>
+                <button onclick="createMonthly()">Monthly Goals</button>
+                <button onclick="createWeekly()">Weekly Goals</button>
+                <button onclick="createDaily()">Daily Goals</button>
             </div>
-            <button onclick="createMonthly()">Weekly Goals</button>
-            <button onclick="createMonthly()">Daily Goals</button>
+            <div class="bar"></div>
+            <div class="bar">
+
+                <div id="monthlyGoals"></div>
+                <div id="weeklyGoals"></div>
+                <div id="dailyGoals"></div>
+
             </div>
         </main>
 
         <footer></footer>
+
+        <script src="/js/goals.js"></script>
 
     </body>
 

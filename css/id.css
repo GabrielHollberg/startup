@@ -11,6 +11,21 @@
     animation: none;
 }
 
+#dailyGoals
+{
+    width: 20vw;
+}
+
+#monthlyGoals
+{
+    width: 20vw;
+}
+
+#weeklyGoals
+{
+    width: 20vw;
+}
+
 #profileMain
 {
     width: 100%;
@@ -40,4 +55,5 @@
     color: lightgray;
     font-family: "Brush Script MT", cursive;
     font-size: 3em;
+    cursor: none;
 }

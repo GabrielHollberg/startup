@@ -6,10 +6,18 @@
     justify-content: space-around;
 }
 
-.myCheck
+.checkDiv
 {
-    height: 1vh;
+    flex-direction: row;
+    justify-content: center;
 }
+
+/*.checkInput
+{
+    height: 2vh;
+    width: 2vh;
+    margin: none;
+}*/
 
 @media (max-width: 1000px)
 {

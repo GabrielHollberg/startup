@@ -47,3 +47,6 @@ While working on the simon css project I learned how to use the bootstrap framew
 
 Simon JS -
 While looking over the Simon Javascript project I learned a lot. One of the things I learned was that you can use localStorage to save a string entered by a user. I will be using this on my Startup project. I also learned about using Javascript functions in my html with events like onclick.
+
+Startup JS -
+While working on the Javascript portion of my Startup project I learned a ton!! One thing I learned is how to manipulate the DOM. I had learned a little about this before, but as I worked on this project I came to understand it much better. I also learned how to make an html element disappear when you click on it. One other thing I thought was really cool was the localStorage keyword. As I researched I learned that it should only be used for non-sensitive information, but I still thought it was a useful concept for small page changes that should be kept on a specific user's page.

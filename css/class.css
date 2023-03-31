@@ -21,7 +21,7 @@
 
 .myButton
 {
-    color: var(--tertiary);
+    color: lightgray;
     width: 15%;
     height: 100%;
     cursor: default;
@@ -29,14 +29,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     animation: buttontransition2 2s;
 }
 
 .myButton:hover
 {
-    background-color: var(--primary);
-    color: var(--fourth);
+    background-color: lightgray;
+    color: black;
     animation: buttontransition1 .1s;
 }
 
@@ -44,13 +44,13 @@
 {
     0%
     {
-        background-color: var(--secondary);
-        color: var(--tertiary);
+        background-color: var(--primary);
+        color: lightgray;
     }
     100%
     {
-        background-color:var(--primary);
-        color: var(--fourth);
+        background-color: lightgray;
+        color: black;
     }
 }
 
@@ -58,13 +58,13 @@
 {
     0%
     {
-        background-color:var(--primary);
-        color: var(--fourth);
+        background-color: lightgray;
+        color: black;
     }
     100%
     {
-        background-color: var(--secondary);
-        color: var(--tertiary);
+        background-color: var(--primary);
+        color: lightgray;
     }
 }
 

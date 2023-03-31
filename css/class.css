@@ -19,6 +19,55 @@
     margin: none;
 }*/
 
+.myButton
+{
+    color: var(--tertiary);
+    width: 15%;
+    height: 100%;
+    cursor: default;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    animation: buttontransition2 2s;
+}
+
+.myButton:hover
+{
+    background-color: var(--primary);
+    color: var(--fourth);
+    animation: buttontransition1 .1s;
+}
+
+@keyframes buttontransition1
+{
+    0%
+    {
+        background-color: var(--secondary);
+        color: var(--tertiary);
+    }
+    100%
+    {
+        background-color:var(--primary);
+        color: var(--fourth);
+    }
+}
+
+@keyframes buttontransition2
+{
+    0%
+    {
+        background-color:var(--primary);
+        color: var(--fourth);
+    }
+    100%
+    {
+        background-color: var(--secondary);
+        color: var(--tertiary);
+    }
+}
+
 @media (max-width: 1000px)
 {
     .lesserButton

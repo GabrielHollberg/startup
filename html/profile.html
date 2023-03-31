@@ -11,19 +11,18 @@
         <link rel="stylesheet" href="/css/profile.css">
         
         <script src="/js/colorUpdate.js"></script>
-        <script src="/js/notBuilt.js"></script>
     </head>
 
     <body>
 
         <header>
             <nav>
-                <a href="/index.html">Home</a>
-                <a class="lesserButton" href="/html/profile.html">Profile</a>
-                <a class="lesserButton" href="/html/goals/goals.html">Goals</a>
-                <!--<a class="lesserButton" href="/html/schedule.html">Schedule</a>
-                <a class="lesserButton" href="/html/todo.html">Todo</a>
-                <a class="lesserButton" href="/html/notes.html">Notes</a>-->
+                <a class="myButton" href="/index.html">Home</a>
+                <a class="myButton" class="lesserButton" href="/html/profile.html">Profile</a>
+                <a class="myButton" class="lesserButton" href="/html/goals/goals.html">Goals</a>
+                <!--<a class="myButton" class="lesserButton" href="/html/schedule.html">Schedule</a>
+                <a class="myButton" class="lesserButton" href="/html/todo.html">Todo</a>
+                <a class="myButton" class="lesserButton" href="/html/notes.html">Notes</a>-->
             </nav>
         </header>
 
@@ -41,7 +40,7 @@
                 <button type="button" id="purple" onclick="createColor('rebeccapurple', 'lightgray')">Purple</button>
                 <button type="button" id="white" onclick="createColor('white', black)">White</button>
             </div>
-            <img id="profilePic" src="/images/profilePic.png" onclick="alertNotBuilt()"></img>
+            <a href="login.html"><img id="profilePic" src="/images/login.webp"></img></a>
             <div class="bar">
                 <form>
                 <input type="text" id="quoteInput" onkeydown="return createQuote(event)" placeholder="type favorite quote, then hit enter" autocomplete="off" autofocus>

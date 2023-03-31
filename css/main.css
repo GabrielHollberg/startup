@@ -1,18 +1,15 @@
 :root
 {
-    --secondary: rgba(14, 100, 355, 0.481);
+    --secondary: rgba(0, 0, 0, 0.481);
     --tertiary: lightgray;
     --fourth: lightgray;
 }
 
 body
 {
-    color: lightgray;
+    color: var(--tertiary);
     margin: auto;
     font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     height: 100vh;
     background-color: var(--secondary);
 }
@@ -34,31 +31,9 @@ nav
     justify-content: space-around;
 }
 
-a
-{
-    color: var(--tertiary);
-    width: 15%;
-    height: 100%;
-    cursor: default;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--secondary);
-    animation: buttontransition2 2s;
-}
-
-a:hover
-{
-    background-color: var(--primary);
-    color: var(--fourth);
-    animation: buttontransition1 .1s;
-}
-
 main
 {
     height: 79vh;
-    top: 7vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -71,9 +46,8 @@ button
     height: 5vh;
     width: 18vw;
     font-size: 1em;
-    color: lightgray;
     background-color: var(--secondary);
-    border-color: lightgray;
+    border-color: var(--tertiary);
     border-radius: 100px;
 }
 
@@ -83,20 +57,13 @@ div
     flex-direction: column;
 }
 
-iframe
-{
-    width: 18vw;
-    height: 30vh;
-    border-radius: 3vh;
-}
-
-input
+input[type="text"]
 {
     height: 5vh;
     width: 50vw;
     text-align: center;
     cursor: default;
-    font-size: 1.1em;
+    font-size: 1.2em;
     border: none;
     border-radius: 100px;
 }
@@ -112,35 +79,6 @@ footer
     display: flex;
     justify-content: space-around;
     align-items: center;
-    top: 93vh;
     height: 7vh;
     width: 100vw;
-}
-
-@keyframes buttontransition1
-{
-    0%
-    {
-        background-color: var(--secondary);
-        color: var(--tertiary);
-    }
-    100%
-    {
-        background-color:var(--primary);
-        color: var(--fourth);
-    }
-}
-
-@keyframes buttontransition2
-{
-    0%
-    {
-        background-color:var(--primary);
-        color: var(--fourth);
-    }
-    100%
-    {
-        background-color: var(--secondary);
-        color: var(--tertiary);
-    }
 }

@@ -1,6 +1,6 @@
 :root
 {
-    --secondary: rgba(0, 0, 0, 0.481);
+    --secondary: rgba(0, 50, 100, 0.8);;
     --tertiary: lightgray;
     --fourth: lightgray;
 }
@@ -43,6 +43,7 @@ main
 
 button
 {
+    color: var(--tertiary);
     height: 5vh;
     width: 18vw;
     font-size: 1em;

@@ -3,12 +3,10 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
         background-color: black;
-        color: lightgray;
     }
 }
 
@@ -17,26 +15,22 @@
     0%
     {
         background-color: black;
-        color: lightgray;
     }
     100%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
 }
 
 #black
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: blackbuttontransition2 2s;
 }
 
 #black:hover
 {
     background-color: black;
-    color: lightgray;
     animation: blackbuttontransition1 .1s;
 }
 
@@ -45,12 +39,10 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
         background-color: darkslateblue;
-        color: lightgray;
     }
 }
 
@@ -59,26 +51,22 @@
     0%
     {
         background-color: darkslateblue;
-        color: lightgray;
     }
     100%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
 }
 
 #blue
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: bluebuttontransition2 2s;
 }
 
 #blue:hover
 {
     background-color:darkslateblue;
-    color: lightgray;
     animation: bluebuttontransition1 .1s;
 }
 
@@ -87,12 +75,10 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
         background-color: firebrick;
-        color: lightgray;
     }
 }
 
@@ -101,26 +87,22 @@
     0%
     {
         background-color: firebrick;
-        color: lightgray;
     }
     100%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
 }
 
 #red
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: redbuttontransition2 2s;
 }
 
 #red:hover
 {
     background-color: firebrick;
-    color: lightgray;
     animation: redbuttontransition1 .1s;
 }
 
@@ -129,12 +111,10 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
         background-color: goldenrod;
-        color: lightgray;
     }
 }
 
@@ -143,26 +123,22 @@
     0%
     {
         background-color: goldenrod;
-        color: lightgray;
     }
     100%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
 }
 
 #yellow
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: yellowbuttontransition2 2s;
 }
 
 #yellow:hover
 {
     background-color:goldenrod;
-    color: lightgray;
     animation: yellowbuttontransition1 .1s;
 }
 
@@ -171,12 +147,10 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
         background-color: darkgreen;
-        color: lightgray;
     }
 }
 
@@ -185,26 +159,22 @@
     0%
     {
         background-color: darkgreen;
-        color: lightgray;
     }
     100%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
 }
 
 #green
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: greenbuttontransition2 2s;
 }
 
 #green:hover
 {
     background-color: darkgreen;
-    color: lightgray;
     animation: greenbuttontransition1 .1s;
 }
 
@@ -213,12 +183,10 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
         background-color: darksalmon;
-        color: lightgray;
     }
 }
 
@@ -227,26 +195,22 @@
     0%
     {
         background-color: darksalmon;
-        color: lightgray;
     }
     100%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
 }
 
 #orange
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: orangebuttontransition2 2s;
 }
 
 #orange:hover
 {
     background-color: darksalmon;
-    color: lightgray;
     animation: orangebuttontransition1 .1s;
 }
 
@@ -255,12 +219,10 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
         background-color: rebeccapurple;
-        color: lightgray;
     }
 }
 
@@ -269,26 +231,22 @@
     0%
     {
         background-color: rebeccapurple;
-        color: lightgray;
     }
     100%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
 }
 
 #purple
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: purplebuttontransition2 2s;
 }
 
 #purple:hover
 {
     background-color: rebeccapurple;
-    color: lightgray;
     animation: purplebuttontransition1 .1s;
 }
 
@@ -297,7 +255,6 @@
     0%
     {
         background-color: var(--secondary);
-        color: lightgray;
     }
     100%
     {
@@ -323,7 +280,6 @@
 #white
 {
     background-color: var(--secondary);
-    color: lightgray;
     animation: whitebuttontransition2 2s;
 }
 

@@ -22,7 +22,7 @@ function createMonthly()
         childElement3.innerText = myInput.value;
         myInput.value = "";
 
-        childElement3.onclick = function() {this.remove();}
+        childElement.onclick = function() {this.remove();}
         myElement.appendChild(childElement);
         //childElement.appendChild(childElement2);
         childElement.appendChild(childElement3);
@@ -48,7 +48,7 @@ function createWeekly()
         childElement3.innerText = myInput.value;
         myInput.value = "";
 
-        childElement3.onclick = function() {this.remove();}
+        childElement.onclick = function() {this.remove();}
         myElement.appendChild(childElement);
         //childElement.appendChild(childElement2);
         childElement.appendChild(childElement3);
@@ -74,7 +74,7 @@ function createDaily()
         childElement3.innerText = myInput.value;
         myInput.value = "";
 
-        childElement3.onclick = function() {this.remove();}
+        childElement.onclick = function() {this.remove();}
         myElement.appendChild(childElement);
         //childElement.appendChild(childElement2);
         childElement.appendChild(childElement3);

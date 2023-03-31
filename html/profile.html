@@ -17,8 +17,8 @@
         <header>
             <nav>
                 <a class="myButton" href="/index.html">Home</a>
-                <a class="myButton" class="lesserButton" href="/html/profile.html">Profile</a>
-                <a class="myButton" class="lesserButton" href="/html/goals/goals.html">Goals</a>
+                <a class="lesserButton myButton" href="/html/profile.html">Profile</a>
+                <a class="lesserButton myButton" href="/html/goals/goals.html">Goals</a>
                 <!--<a class="myButton" class="lesserButton" href="/html/schedule.html">Schedule</a>
                 <a class="myButton" class="lesserButton" href="/html/todo.html">Todo</a>
                 <a class="myButton" class="lesserButton" href="/html/notes.html">Notes</a>-->
@@ -27,24 +27,19 @@
 
         <main>
             <div class="bar">
-                <button type="button" onclick="createColor('rgba(0, 0, 0, 0.8)')">Black</button>
-                <button type="button" onclick="createColor('rgba(0, 50, 100, 0.8)')">Blue</button>
-                <button type="button" onclick="createColor('rgba(100, 0, 0, 0.8)')">Red</button>
-                <button type="button" onclick="createColor('rgba(200, 150, 0, 0.8)')">Yellow</button>
+                <button type="button" onclick="createColor('rgba(0, 0, 0, 0.6)')">Dark</button>
+                <button type="button" onclick="createColor('rgba(0, 50, 100, 0.6)')">Blue</button>
+                <button type="button" onclick="createColor('rgba(100, 0, 0, 0.6)')">Red</button>
+                <button type="button" onclick="createColor('rgba(140, 120, 0, 0.6)')">Yellow</button>
             </div>
-            <div class="bar"></div>
             <div class="bar">
-                <button type="button" onclick="createColor('rgba(0, 100, 100, 0.8)')">Green</button>
-                <button type="button" onclick="createColor('rgba(200, 100, 0, 0.8)')">Orange</button>
-                <button type="button" onclick="createColor('rgba(150, 50, 250, 0.8)')">Purple</button>
-                <button type="button" onclick="createColor('rgba(100, 100, 100, 0.8)')">White</button>
+                <button type="button" onclick="createColor('rgba(0, 70, 30, 0.6)')">Green</button>
+                <button type="button" onclick="createColor('rgba(130, 50, 0, 0.6)')">Orange</button>
+                <button type="button" onclick="createColor('rgba(60, 30, 100, 0.6)')">Purple</button>
+                <button type="button" onclick="createColor('rgba(80, 80, 80, 0.6)')">Light</button>
             </div>
-            <a href="login.html"><img id="profilePic" src="/images/login.webp"></img></a>
-            <div class="bar">
-                <form>
-                <input type="text" id="quoteInput" onkeydown="return createQuote(event)" placeholder="type favorite quote, then hit enter" autocomplete="off" autofocus>
-                </form>
-            </div>
+            <a id="profileAnchor" href="login.html"><img id="profilePic" src="/images/login.webp"></img></a>
+            <input type="text" id="quoteInput" onkeydown="return createQuote(event)" placeholder="type favorite quote, then hit enter" autocomplete="off" autofocus>
         </main>
 
         <footer></footer>

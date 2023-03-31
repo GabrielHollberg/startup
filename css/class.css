@@ -4,6 +4,7 @@
     width: 85vw;
     flex-direction: row;
     justify-content: space-around;
+    margin: 2vh;
 }
 
 .checkDiv
@@ -21,6 +22,7 @@
 
 .myButton
 {
+    font-size: 1.5em;
     color: lightgray;
     width: 15%;
     height: 100%;

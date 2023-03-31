@@ -17,8 +17,8 @@
         <header>
             <nav>
                 <a class="myButton" href="/index.html">Home</a>
-                <a class="myButton" class="lesserButton" href="/html/profile.html">Profile</a>
-                <a class="myButton" class="lesserButton" href="/html/goals/goals.html">Goals</a>
+                <a class="lesserButton myButton" href="/html/profile.html">Profile</a>
+                <a class="lesserButton myButton" href="/html/goals/goals.html">Goals</a>
                 <!--<a class="myButton" class="lesserButton" href="/html/schedule.html">Schedule</a>
                 <a class="myButton" class="lesserButton" href="/html/todo.html">Todo</a>
                 <a class="myButton" class="lesserButton" href="/html/notes.html">Notes</a>-->
@@ -29,13 +29,11 @@
 
             <input type="text" id="goalInput" placeholder="Write a goal, then tap a button"></input>
 
-            <div class="bar"></div>
             <div class="bar">
                 <button type="button" onclick="createMonthly()">Monthly Goals</button>
                 <button type="button" onclick="createWeekly()">Weekly Goals</button>
                 <button type="button" onclick="createDaily()">Daily Goals</button>
             </div>
-            <div class="bar"></div>
             <div class="bar">
 
                 <div id="monthlyGoals"></div>

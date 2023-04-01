@@ -80,7 +80,8 @@ p
 {
     text-align: center;
     cursor: default;
-    margin: 3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 footer

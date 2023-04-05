@@ -93,3 +93,6 @@ function displayQuote(data) {
       containerEl.appendChild(authorEl);
     });
 }
+
+Simon DB -
+I learned a ton while setting up a database on Mongo Atlas and cloning Simon DB. One of the most important things I learned was how to set and access environment variables on linux. It makes sense that this will protect my information. I also learned to add things to a database with node.js. I am curious if there is a way to store user data so I cannot see it though.

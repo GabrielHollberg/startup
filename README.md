@@ -96,3 +96,6 @@ function displayQuote(data) {
 
 Simon DB -
 I learned a ton while setting up a database on Mongo Atlas and cloning Simon DB. One of the most important things I learned was how to set and access environment variables on linux. It makes sense that this will protect my information. I also learned to add things to a database with node.js. I am curious if there is a way to store user data so I cannot see it though.
+
+Simon Login -
+While working with the Simon Login portion of the Simon project I learned about cookies. I wasn't sure what the difference between cookies and localStorage was before, but now I know that cookies provide a secure way of storing data. Cookies are useful for important information like whether or not the user is logged in. LocalStorage is useful for less important things. I also learned more about javascript and how it can be used to connect multiple web services.

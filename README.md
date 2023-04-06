@@ -99,3 +99,6 @@ I learned a ton while setting up a database on Mongo Atlas and cloning Simon DB.
 
 Simon Login -
 While working with the Simon Login portion of the Simon project I learned about cookies. I wasn't sure what the difference between cookies and localStorage was before, but now I know that cookies provide a secure way of storing data. Cookies are useful for important information like whether or not the user is logged in. LocalStorage is useful for less important things. I also learned more about javascript and how it can be used to connect multiple web services.
+
+Simon Websocket -
+While doing the Simon Websocket assignment I learned about the difference between using http requests and websocket. a websocket connection allows the server to send data and requests to the client as well as the other way around. This can be used to create different sorts of interactions between users. Chatting, taking turns, etc.

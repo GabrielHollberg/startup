@@ -82,6 +82,8 @@ p
     cursor: default;
     margin-left: 3vw;
     margin-right: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 footer
